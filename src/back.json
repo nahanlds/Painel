@@ -1,0 +1,74 @@
+{
+  "administradores": [
+    { "id": 1,
+        "nome": "Carlos Silva", 
+        "email": "carlos.adm@empresa.com",
+        "permissoes": ["gerenciar_usuarios", "editar_itens", "visualizar_relatorios"],
+        "senha": "senha123"
+    },
+    { "id": 2, 
+        "nome": "Ana Souza", 
+        "email": "ana.adm@empresa.com",
+        "permissoes": ["visualizar_relatorios", "gerenciar_estoque", "visualizar_estoque", "editar_relatorios"],
+        "senha": "senha456"
+    }
+  ],
+  "funcionarios": [
+    { "id": 1, 
+        "nome": "João Santos", 
+        "cargo": "Vendedor",
+        "email": "joao.func@empresa.com",
+        "permissoes": ["vender_itens", "visualizar_estoque"],
+        "senha": "senha789"
+    },
+    { "id": 2, 
+        "nome": "Maria Oliveira", 
+        "cargo": "Atendente", 
+        "email": "maria.func@empresa.com", 
+        "permissoes": ["atender_clientes"], 
+        "senha": "senha012" 
+    },
+    { "id": 3, 
+        "nome": "Pedro Lima", 
+        "cargo": "Estoquista", 
+        "email": "pedro.func@empresa.com", 
+        "permissoes": ["gerenciar_estoque"], 
+        "senha": "senha345" 
+    },
+    { "id": 4, 
+        "nome": "Julia Costa", 
+        "cargo": "Suporte", 
+        "email": "julia.func@empresa.com", 
+        "permissoes": ["atender_suporte"], 
+        "senha": "senha678" 
+    },
+    { "id": 5, 
+        "nome": "Lucas Almeida", 
+        "cargo": "Caixa", 
+        "email": "lucas.func@empresa.com", 
+        "permissoes": ["operar_caixa"], 
+        "senha": "senha901" 
+    },
+    { "id": 6, 
+        "nome": "Beatriz Reis", 
+        "cargo": "Assistente", 
+        "email": "beatriz.func@empresa.com", 
+        "permissoes": ["atender_clientes"], 
+        "senha": "senha234" 
+    }
+  ],
+  "itens": [
+    { "id": 1, "nome": "Notebook", "quantidade": 15, "preco": 3500.00 },
+    { "id": 2, "nome": "Mouse Sem Fio", "quantidade": 50, "preco": 89.90 },
+    { "id": 3, "nome": "Teclado Mecanico", "quantidade": 30, "preco": 250.00 },
+    { "id": 4, "nome": "Monitor 24", "quantidade": 20, "preco": 999.90 },
+    { "id": 5, "nome": "Headset Gamer", "quantidade": 25, "preco": 199.90 },
+    { "id": 6, "nome": "Cadeira Ergonomica", "quantidade": 10, "preco": 1200.00 },
+    { "id": 7, "nome": "Luminaria de Mesa", "quantidade": 40, "preco": 45.00 },
+    { "id": 8, "nome": "Suporte para Notebook", "quantidade": 35, "preco": 79.90 },
+    { "id": 9, "nome": "Webcam Full HD", "quantidade": 18, "preco": 299.00 },
+    { "id": 10, "nome": "HD Externo 1TB", "quantidade": 22, "preco": 380.00 },
+    { "id": 11, "nome": "Hub USB-C", "quantidade": 60, "preco": 120.00 },
+    { "id": 12, "nome": "Mousepad Grande", "quantidade": 45, "preco": 59.90 }
+  ]
+}
