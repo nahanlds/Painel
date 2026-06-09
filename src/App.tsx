@@ -1,6 +1,6 @@
 import { SidebarProvider, SidebarTrigger } from "./components/ui/sidebar"
-import { AppSidebar } from "./components/app-sidebar"
-import { Button } from "../components/ui/button"
+import { AppSidebar } from "./components/layout/app-sidebar"
+import { Button } from "./components/ui/button"
 import {
   Card,
   CardAction,
@@ -8,8 +8,8 @@ import {
   CardDescription,
   CardHeader,
   CardTitle,
-} from "../components/ui/card"
-import { ModeToggle } from "./components/mode-toggle"
+} from "./components/ui/card"
+import { ModeToggle } from "./components/layout/mode-toggle"
 import apiBack from "./back.json"
 import { Table,
   TableBody,

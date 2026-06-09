@@ -9,7 +9,7 @@ import {
   SidebarMenu,
   SidebarMenuButton,
   SidebarMenuItem,
-} from "./ui/sidebar"
+} from "../ui/sidebar"
 import { Home, Settings, Users, BarChart3, LogOut, Boxes, MessageSquareWarning } from "lucide-react"
 
 const menuItems = [
