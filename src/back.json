@@ -65,7 +65,7 @@
     { "id": 5, "nome": "Headset Gamer", "quantidade": 25, "preco": 199.90 },
     { "id": 6, "nome": "Cadeira Ergonomica", "quantidade": 10, "preco": 1200.00 },
     { "id": 7, "nome": "Luminaria de Mesa", "quantidade": 40, "preco": 45.00 },
-    { "id": 8, "nome": "Suporte para Notebook", "quantidade": 35, "preco": 79.90 },
+    { "id": 8, "nome": "Suporte de Notebook", "quantidade": 35, "preco": 79.90 },
     { "id": 9, "nome": "Webcam Full HD", "quantidade": 18, "preco": 299.00 },
     { "id": 10, "nome": "HD Externo 1TB", "quantidade": 22, "preco": 380.00 },
     { "id": 11, "nome": "Hub USB-C", "quantidade": 60, "preco": 120.00 },
